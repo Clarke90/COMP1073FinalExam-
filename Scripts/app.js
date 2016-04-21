@@ -1,3 +1,4 @@
+// ROLLING THE DICE 
 // declaring all of the dice images and their src to be pulled in 
 var face0=new Image()
 face0.src="Content/img/dice1.png"
@@ -13,22 +14,18 @@ var face5=new Image()
 face5.src="Content/img/dice6.png"
 
 // The function to roll the dice
-
  function TossTheDice(){
     //Dice #1     
         //create a random integer between 0 and 6
-        var randomdice=Math.round(Math.random()*6)
+        var randomdice=Math.round(Math.random()*5)
         //pull image from the src 
         document.images["rolldice"].src=eval("face"+randomdice+".src")
-        console.log(randomdice);
+        document.getElementById("outputDiv").innerHTML = randomdice.toString();
+        
     //Dice #2
         //create a random integer between 0 and 6 and offset this dice roll by adding one 
-        var randomdice=Math.round(Math.random()*6+1)
+        var randomdice=Math.round(Math.random()*5+1)
         //pull image from the src 
         document.images["rolldice2"].src=eval("face"+randomdice+".src")
-      
-
+        document.getElementById("outputDiv2").innerHTML = randomdice.toString();
     }
-    
-
-

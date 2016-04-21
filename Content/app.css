@@ -6,4 +6,15 @@ body{
 }
 #diceContainer{
     margin-top: 25%;
+    display: block;
+}
+#outputDiv{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 300;
+}
+#outputDiv2{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 300;
 }

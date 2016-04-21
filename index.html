@@ -3,9 +3,12 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="description" content="A web application to roll a couple dice using javascript">
+    <meta name="keywords" content="html,css,javascript">
+    <meta name="author" content="Chad Clarke">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Chad" >
+
     <!-- CSS Section -->
     <link rel="stylesheet" href="Content/css/bootstrap.min.css">
     <link rel="stylesheet" href="Content/css/bootstrap-theme.min.css">
@@ -15,15 +18,19 @@
 </head>
 
 <body>
-<div class="col-md-12 text-center" id="diceContainer">
-    <div class="row">
-        <img src="Content/img/dice1.png" name="rolldice">
-         <img src="Content/img/dice2.png" name="rolldice2">
-    <br>
-     <br>
-            <button type="button" onClick="TossTheDice()" class="btn btn-info">Roll The Dice</button>
+    <div class="col-md-12 text-center" id="diceContainer">
+        <div class="row">
+            <img src="Content/img/dice1.png" name="rolldice">
+                <div id="outputDiv"></div>
+            
+            <img src="Content/img/dice2.png" name="rolldice2">
+                 <div id="outputDiv2"></div>
+            <br>
+            <br>
+            <button id="dicebtn" type="button" onClick="TossTheDice()" class="btn btn-info">Roll The Dice</button>
+            
+        </div>
     </div>
-</div>
 
 
     <!-- JavaScript Libraries Section -->
