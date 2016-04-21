@@ -1,0 +1,9 @@
+/* custom syle sheet */
+body{
+    background-image: url(../Content/img/casinoTable.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#diceContainer{
+    margin-top: 25%;
+}
