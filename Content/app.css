@@ -12,9 +12,14 @@ body{
     font-size: 15px;
     color: #fff;
     font-weight: 300;
+    display: inline-block;
 }
 #outputDiv2{
     font-size: 15px;
     color: #fff;
     font-weight: 300;
+     display: inline-block;
+}
+h2{
+    color: #fff;
 }
