@@ -18,7 +18,7 @@ face6.src = "Content/img/dice6.png"
 function TossTheDice() {
     //Dice #1     
     //create a random integer between 0 and 6
-    var randomdice = Math.round(Math.random() * 5)
+    var randomdice = Math.round(Math.random() * 6)
     //pull image from the src 
     document.images["rolldice"].src = eval("face" + randomdice + ".src")
     // print the number being generated 
@@ -26,7 +26,7 @@ function TossTheDice() {
 
     //Dice #2
     //create a random integer between 0 and 6 and offset this dice roll by adding one 
-    var randomdice = Math.round(Math.random() * 5)
+    var randomdice = Math.round(Math.random() * 6)
     //pull image from the src 
     document.images["rolldice2"].src = eval("face" + randomdice + ".src")
     // print the number being generated
